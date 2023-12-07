@@ -1,0 +1,10 @@
+{
+  "name": "wrangler-pages-dev-local-port-0-issue-reproduction",
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-import-meta-resolve index.js"
+  },
+  "devDependencies": {
+    "wrangler": "3.17.0"
+  }
+}
