@@ -1,5 +1,8 @@
 # wrangler dev local port=0 issue reproduction
 
+> [!NOTE]
+> This only happens with node 18 and older, from node 20 onward the issue doesn't seem to appear
+
 To reproduce the issue, see that the following works fine (using `wrangler@3.17.0`):
 ```
 npm i
